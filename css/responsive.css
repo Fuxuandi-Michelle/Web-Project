@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------------------------------------------------------------------------------------*/
+/* LAYOUT */
+
+@media screen and (max-width: 1300px){
+
+
+}
+
+
+@media screen and (max-width: 999px){
+/* desktop to ipad */
+#wrap { min-width:100px; }
+#wrap .container { width:100%; padding:0 15px; }
+html, body { overflow-x: hidden; overflow-y: scroll; }
+input[type=submit], input[type=button], input[type=reset] { -webkit-appearance: none; }
+}
+
+@media screen and (max-width: 767px){
+/* ipad to iphone 6 plus */
+
+}
+
+@media screen and (max-width: 620px){
+.openResponsive #wrap { transform:translate3d(250px, 0, 0); }
+.openResponsive #mobile_menu { width:250px; }
+}
+
+@media screen and (max-width: 479px){
+/* below iphone 6 plus */
+
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* INDEX */
+
+@media screen and (max-width: 1300px){
+
+}
+
+@media screen and (max-width: 999px){
+
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 479px){
+
+}
+
+
